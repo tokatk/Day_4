@@ -1,0 +1,26 @@
+h2{
+    text-align: center;
+}
+
+.capitals{
+    width: 400px;
+    height: 590px;
+    column-count: 2;
+    margin: 0 auto;
+    padding: 40px;
+    padding-bottom: 0;
+    box-shadow: 0 0 10px;
+}
+
+#list{
+    display: flex;
+    height: fit-content;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#list li{
+    font-size: 18px;
+    height: 30px;
+
+}
